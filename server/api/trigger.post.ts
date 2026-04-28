@@ -3,7 +3,7 @@ import { serverSupabaseServiceRole } from '#supabase/server'
 export default defineEventHandler(async (event) => {
   // 1. 呼叫 Hugging Face Space API
   // 記得把這裡的網址換成你部署好的 HF Space 網址
-  const HF_API_URL = "https://your-hf-username-spacename.hf.space/api/scrape"
+  const HF_API_URL = "https://lawxstudents168-twstock_tracker-api.hf.space/api/scrape"
   
   let hfData;
   try {
